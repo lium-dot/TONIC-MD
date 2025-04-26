@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "add session here",
+SESSION_ID: process.env.SESSION_ID || "TONIC-MD~7ERnFQob#6vIJly2Z8X0JZg9sA3bL-4TpuPSgKS8weHtOI0bWwfs",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -18,11 +18,11 @@ PREFIX: process.env.PREFIX || ".",
 BOT_NAME: process.env.BOT_NAME || "ᴛᴏɴɪᴄ-ᴍᴅ",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "ᴛᴏɴɪᴄ-ᴍᴅ", 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "263783866754",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "254758443111",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ᴛᴏɴɪᴄ ᴍᴜɴᴏᴅᴀᴡᴀғᴀ",
+OWNER_NAME: process.env.OWNER_NAME || "★Ꭿ☼︎ℒ☼︎ℒ✩ℰ✫ℕ♫",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "> *© Pᴏᴡᴇʀᴇᴅ Bʏ Tᴏɴɪᴄ Tᴇᴄʜ Iɴᴄ.♡*",
+DESCRIPTION: process.env.DESCRIPTION || "> *© Pᴏᴡᴇʀᴇᴅ Bʏ ★Ꭿ☼︎ℒ☼︎ℒ✩ℰ✫ℕ♫ Tᴇᴄʜ Iɴᴄ.♡*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "",
 // add img for alive msg
@@ -48,7 +48,7 @@ PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
-DEV: process.env.DEV || "263783866754",
+DEV: process.env.DEV || "254758443111",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view
