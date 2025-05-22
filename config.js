@@ -28,6 +28,8 @@ ALIVE_IMG: process.env.ALIVE_IMG || "",
 // add img for alive msg
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
+ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
+// make true to know who dismiss or promoted a member in group
 AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
@@ -53,7 +55,7 @@ DEV: process.env.DEV || "254758443111",
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view
 
-ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same", // change it to 'same' if you want to resend deleted message in same chat 
+ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", // change it to 'same' if you want to resend deleted message in same chat 
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
 // make it true for auto recoding 
 };
